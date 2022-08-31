@@ -1,0 +1,51 @@
+/*common start*/
+body{
+
+}
+/*common end*/
+/*header start*/
+header{
+
+}
+.container{
+margin: 0 auto; /* 2 container center*/
+width: 90%; /*1*/
+overflow: hidden; /*6*/ /*jaiga chere dise*/
+}
+.logo{
+width: 9%; /*3*/
+float: left; /*5*/
+}
+.logo a{
+display: block; /*17*/
+}
+.logo a img{
+width: 100%; /*4 logo img responsive*/
+}
+.menu{
+width: 50%; /*3*/
+float: right; /*5*/
+}
+.menu ul{
+	float: right; /*16*/
+}
+.menu ul li{
+	list-style: none; /*7*/
+	float: left; /*9*/
+}
+.menu ul li a{
+	display: inline-block; /*15*/
+	text-decoration: none; /*8*/
+	padding: 4px 25px; /*10*/
+	font-family: sans-serif; /*11*/
+	font-size: 16px; /*12*/
+	font-weight: 500; /*13*/
+	color: darkblue; /*14*/
+}
+.menu ul li:last-child a{
+	padding-right: 0; /*18*/
+}
+.menu ul li a:hover {
+	color: #0f66fe;
+}
+/*header end*/
